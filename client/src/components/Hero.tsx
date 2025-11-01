@@ -4,6 +4,7 @@ import { SiPython, SiPytorch, SiTensorflow, SiReact, SiOpencv } from 'react-icon
 import { Button } from '@/components/ui/button';
 import { useMousePosition } from '@/hooks/useMousePosition';
 import TypingText from '@/components/TypingText';
+import TrueFocus from '@/components/TrueFocus';
 
 export default function Hero() {
   const mousePosition = useMousePosition();
@@ -90,8 +91,8 @@ export default function Hero() {
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              <TypingText text="Hi, I'm Abdelrahman" speed={80} />
+            <h1 className="text-6xl md:text-8xl font-bold mb-6">
+              <TrueFocus sentence="Hi I'm Abdelrahman" borderColor="#8b5cf6" glowColor="rgba(139, 92, 246, 0.6)" />
             </h1>
 
             <motion.p

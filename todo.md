@@ -33,3 +33,17 @@
 
 ## New Task
 - [x] Implement actual Splash Cursor component with WebGL fluid simulation (1075 lines of WebGL code)
+
+## Splash Cursor Adjustments
+- [x] Lower transparency of Splash Cursor (opacity: 0.3)
+- [x] Move Splash Cursor to background (z-index: 0)
+- [x] Make it the last layer behind all elements
+
+## Mandatory ReactBits Components
+- [x] True Focus (animated focus effect on hero title)
+- [x] Text Cursor (sparkle trail following mouse)
+- [ ] Ghost Cursor (requires additional Three.js setup)
+- [ ] Liquid Ether (requires Three.js fiber)
+- [ ] Logo Loop (requires Three.js fiber)
+- [ ] Electric Border (requires additional setup)
+- [ ] Fluid Glass (requires Three.js fiber)

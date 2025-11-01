@@ -16,7 +16,8 @@ function SplashCursor({
   SHADING = true,
   COLOR_UPDATE_SPEED = 10,
   BACK_COLOR = { r: 0.5, g: 0, b: 0 },
-  TRANSPARENT = true
+  TRANSPARENT = true,
+  OPACITY = 0.3
 }) {
   const canvasRef = useRef(null);
 
@@ -1065,7 +1066,13 @@ function SplashCursor({
         style={{
           width: '100vw',
           height: '100vh',
-          display: 'block'
+          display: 'block',
+          opacity: OPACITY || 0.3,
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          zIndex: 0,
+          pointerEvents: 'none'
         }}
       />
     </div>
