@@ -1,4 +1,4 @@
-import PillNav from '@/components/PillNav';
+import DockNav from '@/components/DockNav';
 import Hero from '@/components/Hero';
 import Footer from '@/components/Footer';
 import InteractiveBackground from '@/components/InteractiveBackground';
@@ -11,6 +11,9 @@ import Projects from '@/sections/Projects';
 import Publications from '@/sections/Publications';
 import Skills from '@/sections/Skills';
 import Contact from '@/sections/Contact';
+import Certificates from '@/sections/Certificates';
+import Volunteer from '@/sections/Volunteer';
+import LinkedInPosts from '@/sections/LinkedInPosts';
 
 export default function Home() {
   return (
@@ -22,18 +25,14 @@ export default function Home() {
       <ScrollProgress />
       <div className="relative z-10">
         <div id="home" />
-        <PillNav items={[
-          { label: 'Home', href: '#home' },
-          { label: 'About', href: '#about' },
-          { label: 'Projects', href: '#projects' },
-          { label: 'Publications', href: '#publications' },
-          { label: 'Skills', href: '#skills' },
-          { label: 'Contact', href: '#contact' },
-        ]} />
+        <DockNav />
         <Hero />
         <About />
         <Projects />
         <Publications />
+      <Certificates />
+      <Volunteer />
+        <LinkedInPosts />
         <Skills />
         <Contact />
         <Footer />

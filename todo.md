@@ -57,3 +57,10 @@
 - [x] Add animated icons to Publications section (SectionIcons component)
 - [x] Update skills to match CV (7 comprehensive categories)
 - [x] Add more CV information (skills updated from CV)
+
+## New Features
+- [x] Add Certificates section with CV data (4 certificates with skills)
+- [x] Add Volunteer Experience section (2 experiences with impact metrics)
+- [x] Replace Pill Nav with DockNav component (standalone icon buttons with tooltips)
+- [x] Add ShinyButton animation component
+- [x] Add LinkedIn posts section (3 recent posts with engagement stats)
