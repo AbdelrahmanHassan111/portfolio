@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import InteractiveBackground from '@/components/InteractiveBackground';
 import FlyingIconsExpanded from '@/components/FlyingIconsExpanded';
 import ScrollProgress from '@/components/ScrollProgress';
-import CustomCursor from '@/components/CustomCursor';
+import SplashCursor from '@/components/SplashCursor';
 import About from '@/sections/About';
 import Projects from '@/sections/Projects';
 import Publications from '@/sections/Publications';
@@ -14,7 +14,7 @@ import Contact from '@/sections/Contact';
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground relative">
-      <CustomCursor />
+      <SplashCursor />
       <ScrollProgress />
       <InteractiveBackground />
       <FlyingIconsExpanded />

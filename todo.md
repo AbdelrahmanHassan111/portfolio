@@ -30,3 +30,6 @@
 - [x] Interactive background
 - [x] Message portal
 - [x] Fancy fonts
+
+## New Task
+- [x] Implement actual Splash Cursor component with WebGL fluid simulation (1075 lines of WebGL code)
