@@ -77,7 +77,7 @@ export default function Hero() {
 
       {/* Main Content */}
       <motion.div 
-        className="container relative z-10 text-center px-4"
+        className="container relative z-10 text-center px-4 max-w-4xl mx-auto"
         style={{ opacity, scale, y }}
       >
         <motion.div
@@ -87,16 +87,16 @@ export default function Hero() {
         >
           {/* Glassmorphism Card */}
           <motion.div
-            className="max-w-4xl mx-auto p-8 md:p-12 rounded-3xl bg-white/3 backdrop-blur-md border border-white/5 shadow-2xl"
+            className="max-w-3xl mx-auto p-6 md:p-8 rounded-2xl bg-white/3 backdrop-blur-md border border-white/5 shadow-2xl"
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
               <TrueFocus sentence="Hi I'm Abdelrahman" borderColor="#8b5cf6" glowColor="rgba(139, 92, 246, 0.6)" animationDuration={0.2} pauseBetweenAnimations={0.5} />
             </h1>
 
             <motion.p
-              className="text-2xl md:text-3xl text-foreground/80 mb-4"
+              className="text-xl md:text-2xl text-foreground/80 mb-3"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
@@ -105,7 +105,7 @@ export default function Hero() {
             </motion.p>
 
             <motion.p
-              className="text-lg text-foreground/60 mb-8 max-w-2xl mx-auto"
+              className="text-base text-foreground/60 mb-6 max-w-xl mx-auto"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
@@ -114,7 +114,7 @@ export default function Hero() {
             </motion.p>
 
             <motion.div
-              className="flex flex-wrap gap-4 justify-center"
+              className="flex flex-wrap gap-3 justify-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}

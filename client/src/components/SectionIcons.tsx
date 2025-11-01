@@ -10,25 +10,25 @@ interface SectionIconsProps {
   count?: number;
 }
 
-export default function SectionIcons({ count = 15 }: SectionIconsProps) {
+export default function SectionIcons({ count = 6 }: SectionIconsProps) {
   const mousePosition = useMousePosition();
 
   const icons = [
-    { Icon: SiPytorch, color: '#EE4C2C', size: 40 },
-    { Icon: SiTensorflow, color: '#FF6F00', size: 40 },
-    { Icon: SiScikitlearn, color: '#F7931E', size: 40 },
-    { Icon: SiPandas, color: '#150458', size: 40 },
-    { Icon: SiNumpy, color: '#013243', size: 40 },
-    { Icon: SiOpenai, color: '#412991', size: 40 },
-    { Icon: SiHuggingface, color: '#FFD21E', size: 40 },
-    { Icon: SiAmazon, color: '#FF9900', size: 40 },
-    { Icon: SiMysql, color: '#4479A1', size: 40 },
-    { Icon: SiDocker, color: '#2496ED', size: 40 },
-    { Icon: SiKubernetes, color: '#326CE5', size: 40 },
-    { Icon: SiPython, color: '#3776AB', size: 40 },
-    { Icon: SiOpencv, color: '#5C3EE8', size: 40 },
-    { Icon: SiJupyter, color: '#F37626', size: 40 },
-    { Icon: SiFastapi, color: '#009688', size: 40 },
+    { Icon: SiPytorch, color: '#EE4C2C', size: 28 },
+    { Icon: SiTensorflow, color: '#FF6F00', size: 28 },
+    { Icon: SiScikitlearn, color: '#F7931E', size: 28 },
+    { Icon: SiPandas, color: '#150458', size: 28 },
+    { Icon: SiNumpy, color: '#013243', size: 28 },
+    { Icon: SiOpenai, color: '#412991', size: 28 },
+    { Icon: SiHuggingface, color: '#FFD21E', size: 28 },
+    { Icon: SiAmazon, color: '#FF9900', size: 28 },
+    { Icon: SiMysql, color: '#4479A1', size: 28 },
+    { Icon: SiDocker, color: '#2496ED', size: 28 },
+    { Icon: SiKubernetes, color: '#326CE5', size: 28 },
+    { Icon: SiPython, color: '#3776AB', size: 28 },
+    { Icon: SiOpencv, color: '#5C3EE8', size: 28 },
+    { Icon: SiJupyter, color: '#F37626', size: 28 },
+    { Icon: SiFastapi, color: '#009688', size: 28 },
   ];
 
   // Generate random positions for icons

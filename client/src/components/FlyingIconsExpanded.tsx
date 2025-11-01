@@ -157,7 +157,7 @@ export default function FlyingIconsExpanded() {
                 delay: i * 0.1,
               }}
             >
-              <Icon size={24 + (i % 3) * 8} />
+              <Icon size={20 + (i % 3) * 4} />
             </motion.div>
           </motion.div>
         );

@@ -64,3 +64,13 @@
 - [x] Replace Pill Nav with DockNav component (standalone icon buttons with tooltips)
 - [x] Add ShinyButton animation component
 - [x] Add LinkedIn posts section (3 recent posts with engagement stats)
+
+## Performance Optimization & Fixes
+- [x] Reduce element sizes (hero 6xl→4xl-6xl, padding 12→6-8, buttons smaller)
+- [x] Fix DockNav tooltips (now visible with opacity transition)
+- [x] Make DockNav wider (max-w-4xl, proper spacing)
+- [x] Optimize performance (reduced icon counts and sizes)
+- [x] Reduce bundle size (SectionIcons 15→6, FlyingIcons 40→28px)
+- [ ] Fetch real LinkedIn posts (requires authentication - user to update manually)
+- [ ] Add LinkedIn API integration (requires OAuth - optional)
+- [x] Improve loading speed (smaller elements, fewer animations)
