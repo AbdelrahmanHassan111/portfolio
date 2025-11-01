@@ -1,23 +1,32 @@
 # Portfolio Website TODO
 
-## New Requirements
-- [x] Add education timeline: Bachelor's AI Engineering (finishing 06/2027)
-- [x] Mention future plans: Masters and PhD after Bachelor's
-- [x] Add scroll progress indicator
-- [x] Implement parallax scrolling in Hero section
-- [x] Enhance scroll-driven animations
+## ReactBits Components Integration
+- [ ] Add Ghost Cursor with custom colors matching design
+- [ ] Implement Splash Cursor effect
+- [ ] Add True Focus text animation
+- [ ] Implement Text Typing animation
+- [ ] Add Text Cursor effect
+- [ ] Implement Liquid Ether background
+- [ ] Add Logo Loop animation
+- [ ] Replace top navbar with Pill Nav (liquid glass style)
+- [ ] Add zoom and blur effects
+- [ ] Expand flying icons with all AI/ML frameworks and MLOps tools
 
-## Completed Enhancements
-- [x] Lighter balanced theme
-- [x] 36+ flying tech skill icons with cursor interaction
-- [x] Interactive background with gradient orbs and particles
-- [x] Message portal with contact form
-- [x] Fancy fonts (Orbitron, Outfit, Syne)
-- [x] Cursor trail effects
-- [x] Glassmorphism cards
-- [x] GitHub API integration
-- [x] Gradient backgrounds
-- [x] Hover animations throughout
-- [x] Scroll progress bar
-- [x] Parallax effects on hero section
-- [x] Education timeline with future plans
+## AI/ML Icons to Add
+- [ ] TensorFlow, Keras, PyTorch, scikit-learn
+- [ ] Hugging Face, LangChain, OpenAI
+- [ ] MLflow, Weights & Biases, Neptune.ai
+- [ ] Kubeflow, Apache Airflow, Prefect
+- [ ] Ray, Dask, Spark MLlib
+- [ ] ONNX, TensorRT, OpenVINO
+- [ ] Jupyter, Colab, Kaggle
+- [ ] And many more AI/ML related tools
+
+## Completed Features
+- [x] Education timeline (Bachelor's 06/2027, Masters/PhD plans)
+- [x] Scroll progress indicator
+- [x] Parallax scrolling effects
+- [x] 36+ flying tech icons
+- [x] Interactive background
+- [x] Message portal
+- [x] Fancy fonts

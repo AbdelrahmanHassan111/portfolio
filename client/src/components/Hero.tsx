@@ -3,6 +3,7 @@ import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { SiPython, SiPytorch, SiTensorflow, SiReact, SiOpencv } from 'react-icons/si';
 import { Button } from '@/components/ui/button';
 import { useMousePosition } from '@/hooks/useMousePosition';
+import TypingText from '@/components/TypingText';
 
 export default function Hero() {
   const mousePosition = useMousePosition();
@@ -89,14 +90,9 @@ export default function Hero() {
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            <motion.h1
-              className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-            >
-              Hi, I'm Abdelrahman
-            </motion.h1>
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
+              <TypingText text="Hi, I'm Abdelrahman" speed={80} />
+            </h1>
 
             <motion.p
               className="text-2xl md:text-3xl text-foreground/80 mb-4"
