@@ -1,26 +1,23 @@
 # Portfolio Website TODO
 
-## New Enhancements
-- [x] Lighten the theme (not too light, balanced)
-- [x] Add many more flying skill icons (36+ icons)
-- [x] Implement message portal/contact form
-- [x] Use fancy fonts (Orbitron, Outfit, Syne)
-- [x] Create cursor-interactive background with particles
-- [x] Add animated gradient orbs that follow cursor
-- [x] Implement floating particles with animations
-- [x] Add cursor trail effect
+## New Requirements
+- [x] Add education timeline: Bachelor's AI Engineering (finishing 06/2027)
+- [x] Mention future plans: Masters and PhD after Bachelor's
+- [x] Add scroll progress indicator
+- [x] Implement parallax scrolling in Hero section
+- [x] Enhance scroll-driven animations
 
-## Completed Features
-- [x] Glassmorphism cards with blur and transparency
-- [x] Gradient backgrounds (purple-blue-cyan)
-- [x] Floating 3D tech icons in hero section
-- [x] Hover tilt/flip animations for project cards
-- [x] Animated skill bubbles with logos
-- [x] Timeline layout for publications
-- [x] Component structure organization
+## Completed Enhancements
+- [x] Lighter balanced theme
+- [x] 36+ flying tech skill icons with cursor interaction
+- [x] Interactive background with gradient orbs and particles
+- [x] Message portal with contact form
+- [x] Fancy fonts (Orbitron, Outfit, Syne)
+- [x] Cursor trail effects
+- [x] Glassmorphism cards
 - [x] GitHub API integration
-- [x] Social icons in contact section
-- [x] Footer with gradient border
-- [x] Message portal with form validation
-- [x] Interactive background components
-- [x] 36+ flying tech skill icons
+- [x] Gradient backgrounds
+- [x] Hover animations throughout
+- [x] Scroll progress bar
+- [x] Parallax effects on hero section
+- [x] Education timeline with future plans

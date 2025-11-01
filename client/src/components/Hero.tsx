@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { SiPython, SiPytorch, SiTensorflow, SiReact, SiOpencv } from 'react-icons/si';
 import { Button } from '@/components/ui/button';
@@ -6,6 +6,10 @@ import { useMousePosition } from '@/hooks/useMousePosition';
 
 export default function Hero() {
   const mousePosition = useMousePosition();
+  const { scrollY } = useScroll();
+  const opacity = useTransform(scrollY, [0, 300], [1, 0]);
+  const scale = useTransform(scrollY, [0, 300], [1, 0.8]);
+  const y = useTransform(scrollY, [0, 300], [0, 100]);
 
   const techIcons = [
     { Icon: SiPython, color: 'text-yellow-400', delay: 0 },
@@ -70,7 +74,10 @@ export default function Hero() {
       </div>
 
       {/* Main Content */}
-      <div className="container relative z-10 text-center px-4">
+      <motion.div 
+        className="container relative z-10 text-center px-4"
+        style={{ opacity, scale, y }}
+      >
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -198,7 +205,7 @@ export default function Hero() {
             />
           </div>
         </motion.div>
-      </div>
+      </motion.div>
     </section>
   );
 }

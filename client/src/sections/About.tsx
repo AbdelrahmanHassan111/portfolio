@@ -41,10 +41,21 @@ export default function About() {
               AI Engineering student with <span className="text-purple-400 font-semibold">2+ years</span> of hands-on experience in machine learning, deep learning, and natural language processing. 
               Published <span className="text-cyan-400 font-semibold">IEEE researcher</span> achieving 95.85% accuracy in Alzheimer's detection using ensemble methods.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-foreground/80 leading-relaxed mb-6">
               Industry experience at <span className="text-blue-400 font-semibold">Outlier AI</span> specializing in LLM evaluation, prompt engineering, and RLHF. 
               Expert at delivering production-ready AI solutions including medical diagnosis platforms, RAG systems, and edge AI applications.
             </p>
+            <div className="p-6 rounded-2xl bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-cyan-500/10 border border-white/10">
+              <h3 className="text-xl font-bold mb-3 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                🎓 Education & Future Plans
+              </h3>
+              <p className="text-foreground/80 leading-relaxed mb-2">
+                Currently pursuing <span className="text-purple-400 font-semibold">Bachelor's in Artificial Intelligence Engineering</span>, graduating <span className="text-cyan-400 font-semibold">June 2027</span>.
+              </p>
+              <p className="text-foreground/80 leading-relaxed">
+                Looking forward to advancing my research journey with <span className="text-blue-400 font-semibold">Master's and PhD programs</span> to push the boundaries of AI innovation and contribute to cutting-edge research in machine learning and artificial intelligence.
+              </p>
+            </div>
           </motion.div>
 
           {/* Animated Skill Bubbles */}
