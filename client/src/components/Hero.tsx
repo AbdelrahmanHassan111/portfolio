@@ -87,12 +87,12 @@ export default function Hero() {
         >
           {/* Glassmorphism Card */}
           <motion.div
-            className="max-w-4xl mx-auto p-8 md:p-12 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl"
+            className="max-w-4xl mx-auto p-8 md:p-12 rounded-3xl bg-white/3 backdrop-blur-md border border-white/5 shadow-2xl"
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <h1 className="text-6xl md:text-8xl font-bold mb-6">
-              <TrueFocus sentence="Hi I'm Abdelrahman" borderColor="#8b5cf6" glowColor="rgba(139, 92, 246, 0.6)" />
+              <TrueFocus sentence="Hi I'm Abdelrahman" borderColor="#8b5cf6" glowColor="rgba(139, 92, 246, 0.6)" animationDuration={0.2} pauseBetweenAnimations={0.5} />
             </h1>
 
             <motion.p

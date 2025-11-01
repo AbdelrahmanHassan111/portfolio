@@ -4,7 +4,7 @@ import SectionTitle from '@/components/SectionTitle';
 import { 
   SiPython, SiCplusplus, SiMysql, SiPytorch, SiTensorflow, SiScikitlearn,
   SiOpencv, SiAmazon, SiGooglecloud, SiDocker, SiGit, SiFastapi,
-  SiStreamlit, SiReact, SiTailwindcss
+  SiStreamlit, SiHuggingface, SiNeo4J, SiKubernetes
 } from 'react-icons/si';
 import { Brain, Sparkles } from 'lucide-react';
 
@@ -18,14 +18,27 @@ export default function Skills() {
         { Icon: SiPython, name: 'Python', color: 'text-yellow-400' },
         { Icon: SiCplusplus, name: 'C++', color: 'text-blue-500' },
         { Icon: SiMysql, name: 'SQL', color: 'text-blue-400' },
+        { Icon: Brain, name: 'MATLAB', color: 'text-orange-400' },
       ],
     },
     {
-      title: 'ML & DL',
+      title: 'ML & DL Frameworks',
       skills: [
         { Icon: SiPytorch, name: 'PyTorch', color: 'text-orange-500' },
         { Icon: SiTensorflow, name: 'TensorFlow', color: 'text-orange-400' },
         { Icon: SiScikitlearn, name: 'Scikit-learn', color: 'text-blue-400' },
+        { Icon: Brain, name: 'XGBoost', color: 'text-purple-400' },
+        { Icon: Sparkles, name: 'Ensemble Methods', color: 'text-cyan-400' },
+      ],
+    },
+    {
+      title: 'NLP & LLMs',
+      skills: [
+        { Icon: Brain, name: 'BERT/GPT/T5', color: 'text-green-400' },
+        { Icon: SiHuggingface, name: 'HuggingFace', color: 'text-yellow-400' },
+        { Icon: Brain, name: 'LangChain', color: 'text-green-500' },
+        { Icon: Brain, name: 'RAG Systems', color: 'text-purple-400' },
+        { Icon: Sparkles, name: 'RLHF', color: 'text-orange-400' },
       ],
     },
     {
@@ -33,15 +46,29 @@ export default function Skills() {
       skills: [
         { Icon: SiOpencv, name: 'OpenCV', color: 'text-blue-500' },
         { Icon: Brain, name: 'YOLO', color: 'text-purple-400' },
+        { Icon: Brain, name: 'ResNet', color: 'text-cyan-400' },
+        { Icon: Brain, name: 'Medical Imaging', color: 'text-green-400' },
       ],
     },
     {
       title: 'Cloud & DevOps',
       skills: [
         { Icon: SiAmazon, name: 'AWS', color: 'text-orange-400' },
-        { Icon: SiGooglecloud, name: 'GCP', color: 'text-blue-500' },
+        { Icon: Brain, name: 'Azure', color: 'text-blue-500' },
+        { Icon: SiGooglecloud, name: 'GCP', color: 'text-blue-400' },
         { Icon: SiDocker, name: 'Docker', color: 'text-blue-400' },
-        { Icon: SiGit, name: 'Git', color: 'text-orange-500' },
+        { Icon: SiKubernetes, name: 'Kubernetes', color: 'text-blue-500' },
+        { Icon: SiGit, name: 'CI/CD', color: 'text-purple-400' },
+      ],
+    },
+    {
+      title: 'Databases & AI Tools',
+      skills: [
+        { Icon: SiMysql, name: 'MySQL', color: 'text-blue-400' },
+        { Icon: Brain, name: 'FAISS', color: 'text-purple-400' },
+        { Icon: SiNeo4J, name: 'Neo4j', color: 'text-blue-500' },
+        { Icon: Sparkles, name: 'SHAP/LIME', color: 'text-cyan-400' },
+        { Icon: Brain, name: 'CrewAI', color: 'text-pink-400' },
       ],
     },
     {
@@ -49,16 +76,14 @@ export default function Skills() {
       skills: [
         { Icon: SiFastapi, name: 'FastAPI', color: 'text-green-400' },
         { Icon: SiStreamlit, name: 'Streamlit', color: 'text-red-400' },
-        { Icon: SiReact, name: 'React', color: 'text-cyan-400' },
-        { Icon: SiTailwindcss, name: 'Tailwind', color: 'text-cyan-400' },
       ],
     },
   ];
 
   const currentlyLearning = [
-    { name: 'Transformers', icon: '🤖', color: 'from-purple-400 to-pink-400' },
-    { name: 'LLMs', icon: '🧠', color: 'from-blue-400 to-cyan-400' },
-    { name: 'Vision-Language Models', icon: '👁️', color: 'from-green-400 to-teal-400' },
+    { name: 'Vision Transformers', icon: '👁️', color: 'from-purple-400 to-pink-400' },
+    { name: 'Diffusion Models', icon: '🎨', color: 'from-blue-400 to-cyan-400' },
+    { name: 'Multi-Agent Systems', icon: '🤖', color: 'from-green-400 to-teal-400' },
   ];
 
   return (

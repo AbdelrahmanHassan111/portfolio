@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { useEffect, useState } from 'react';
 import { ExternalLink, Star, GitFork } from 'lucide-react';
 import SectionTitle from '@/components/SectionTitle';
+import SectionIcons from '@/components/SectionIcons';
 import { useMousePosition } from '@/hooks/useMousePosition';
 
 interface GitHubRepo {
@@ -64,6 +65,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-32 relative" ref={ref}>
+      <SectionIcons count={12} />
       <div className="container">
         <SectionTitle subtitle="Explore my work and contributions">
           Featured Projects

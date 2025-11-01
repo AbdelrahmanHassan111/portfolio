@@ -2,12 +2,14 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FileText, Award } from 'lucide-react';
 import SectionTitle from '@/components/SectionTitle';
+import SectionIcons from '@/components/SectionIcons';
 
 export default function Publications() {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
 
   return (
     <section id="publications" className="py-32 relative bg-white/5" ref={ref}>
+      <SectionIcons count={10} />
       <div className="container">
         <SectionTitle subtitle="Research contributions and academic work">
           Publications

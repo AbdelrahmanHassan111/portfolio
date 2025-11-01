@@ -47,3 +47,13 @@
 - [ ] Logo Loop (requires Three.js fiber)
 - [ ] Electric Border (requires additional setup)
 - [ ] Fluid Glass (requires Three.js fiber)
+
+## New Requirements
+- [x] Make theme much lighter (oklch 0.98)
+- [x] Speed up TrueFocus blur animation (0.2s duration, 0.5s pause)
+- [x] Increase transparency of hero glassmorphism card (bg-white/3)
+- [x] Increase Splash Cursor transparency more (opacity: 0.15)
+- [x] Add animated icons to Projects section (SectionIcons component)
+- [x] Add animated icons to Publications section (SectionIcons component)
+- [x] Update skills to match CV (7 comprehensive categories)
+- [x] Add more CV information (skills updated from CV)
