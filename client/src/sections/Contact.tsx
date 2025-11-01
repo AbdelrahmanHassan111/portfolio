@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import SectionTitle from '@/components/SectionTitle';
+import MessagePortal from '@/components/MessagePortal';
 
 export default function Contact() {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
@@ -100,23 +101,8 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* CTA */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1 } : {}}
-            transition={{ delay: 0.6 }}
-            className="text-center"
-          >
-            <p className="text-foreground/60 mb-4">
-              Prefer email? Drop me a line at
-            </p>
-            <a
-              href="mailto:abdelrahman.h004@gmail.com"
-              className="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-semibold transition-all hover:scale-105"
-            >
-              abdelrahman.h004@gmail.com
-            </a>
-          </motion.div>
+          {/* Message Portal */}
+          <MessagePortal />
         </motion.div>
       </div>
     </section>

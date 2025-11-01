@@ -1,38 +1,26 @@
 # Portfolio Website TODO
 
-## Design Improvements
-- [x] Implement glassmorphism cards with blur and transparency
-- [x] Add gradient backgrounds (purple-blue-cyan)
-- [x] Create floating 3D tech icons in hero section
-- [x] Add parallax scrolling effects
-- [x] Implement dynamic typing effect for headline
-- [x] Add hover tilt/flip animations for project cards
-- [x] Create animated skill bubbles with logos
-- [x] Add glow effects on hover for skills
-- [x] Implement timeline layout for publications
-- [x] Add smooth page transitions with Framer Motion
-- [x] Create slide-up animations for sections
-- [x] Add hover scaling effects throughout
+## New Enhancements
+- [x] Lighten the theme (not too light, balanced)
+- [x] Add many more flying skill icons (36+ icons)
+- [x] Implement message portal/contact form
+- [x] Use fancy fonts (Orbitron, Outfit, Syne)
+- [x] Create cursor-interactive background with particles
+- [x] Add animated gradient orbs that follow cursor
+- [x] Implement floating particles with animations
+- [x] Add cursor trail effect
 
-## Component Structure
-- [x] Create separate component files (Hero, Navbar, ProjectCard, etc.)
-- [x] Organize sections into dedicated files
-- [x] Add SectionTitle component with AnimatedText
-- [x] Create SkillLogo component with animations
-- [x] Build ContactForm component with gradient background
-- [x] Create Footer component with gradient border
-
-## Content Updates
-- [x] Add CV download button in hero
-- [x] Display tech logos based on project languages
-- [x] Add "Currently Learning" sub-section in skills
-- [x] Create publications section with IEEE paper
-- [x] Add social icons in contact section
-- [x] Include copyright footer
-
-## Technical
-- [x] Install axios for GitHub API
-- [x] Install react-icons for tech logos
-- [x] Optimize bundle size and lazy load sections
-- [x] Test all animations and interactions
-- [x] Save checkpoint and push to GitHub
+## Completed Features
+- [x] Glassmorphism cards with blur and transparency
+- [x] Gradient backgrounds (purple-blue-cyan)
+- [x] Floating 3D tech icons in hero section
+- [x] Hover tilt/flip animations for project cards
+- [x] Animated skill bubbles with logos
+- [x] Timeline layout for publications
+- [x] Component structure organization
+- [x] GitHub API integration
+- [x] Social icons in contact section
+- [x] Footer with gradient border
+- [x] Message portal with form validation
+- [x] Interactive background components
+- [x] 36+ flying tech skill icons
