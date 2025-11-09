@@ -32,7 +32,7 @@ export default function DockNav() {
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
     >
-      <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl" style={{borderRadius: '0px'}} style={{borderRadius: '2px', width: '790px', height: '50px', display: 'inline'}}>
+      <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl">
         {navItems.map((item) => {
           const Icon = item.icon;
           return (
